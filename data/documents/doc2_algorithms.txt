@@ -1,0 +1,13 @@
+```
+Title: Landmark Quantum Algorithms (1992-1996)
+
+The 1990s saw the development of quantum algorithms that demonstrated clear theoretical advantages over classical approaches. These algorithms proved that quantum computers, once built, could solve certain problems exponentially or polynomially faster than any known classical algorithm.
+
+Peter Shor, a mathematician at Bell Labs, published his groundbreaking factoring algorithm in 1994. Shor's Algorithm can factor large integers in polynomial time — a task that takes exponential time on classical computers. Since most modern cryptographic systems, including RSA encryption, rely on the difficulty of factoring large numbers, Shor's Algorithm posed a direct theoretical threat to global cybersecurity infrastructure. The algorithm uses the Quantum Fourier Transform as its core subroutine.
+
+Lov Grover, also at Bell Labs, developed Grover's Algorithm in 1996. While less dramatic than Shor's, Grover's Algorithm provides a quadratic speedup for searching an unstructured database of N items, reducing the search time from O(N) on a classical machine to O(√N) on a quantum machine. This has broad applicability in optimization and search problems.
+
+Daniel Simon published Simon's Algorithm in 1994 as well, which was the first algorithm to show an exponential speedup over classical computing for a specific problem. Simon's Algorithm directly inspired Shor in developing his factoring algorithm. The Bernstein-Vazirani algorithm, also from 1992, showed quantum computers could find a hidden linear function in a single query vs multiple classical queries.
+
+These algorithms transformed quantum computing from a philosophical curiosity into a field with concrete, measurable advantages, attracting significant funding from governments and corporations worldwide.
+```

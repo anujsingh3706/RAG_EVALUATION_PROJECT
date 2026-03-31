@@ -1,0 +1,13 @@
+```
+Title: IBM and Google's Race to Quantum Supremacy (2016-2019)
+
+The period from 2016 to 2019 marked the beginning of the "NISQ era" — Noisy Intermediate-Scale Quantum computing — a term coined by physicist John Preskill in 2018. NISQ devices are quantum computers with 50-1000 qubits that are too noisy and error-prone to run full quantum error correction, but large enough to potentially demonstrate quantum advantage on specific tasks.
+
+IBM launched IBM Quantum Experience in May 2016, making a 5-qubit quantum computer freely accessible to the public via the cloud. This was a historic milestone — the first time anyone with an internet connection could run experiments on a real quantum processor. IBM subsequently released a 16-qubit processor and then a 20-qubit processor for paying clients. IBM's quantum volume metric was introduced to measure overall quantum computer performance beyond raw qubit count, accounting for connectivity, gate fidelity, and error rates.
+
+Google's quantum AI team, led by John Martinis, announced a major milestone in October 2019. Google claimed to have achieved quantum supremacy — the point at which a quantum computer performs a task that no classical computer can complete in a feasible amount of time. Their 53-qubit Sycamore processor performed a specific sampling task in 200 seconds that Google claimed would take Summit, the world's most powerful classical supercomputer at the time, approximately 10,000 years.
+
+IBM disputed Google's supremacy claim, arguing that with optimized classical algorithms and better use of Summit's disk storage, the same task could be completed in 2.5 days, not 10,000 years. This debate highlighted the nuanced definition of quantum supremacy. Regardless, the Sycamore result was a landmark moment that accelerated investment in quantum research globally.
+
+The NISQ era marked the beginning of practical quantum experimentation, with companies and researchers using these devices for quantum chemistry simulations, optimization problems, and quantum machine learning research, even without full error correction.
+```

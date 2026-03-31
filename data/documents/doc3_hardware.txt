@@ -1,0 +1,13 @@
+```
+Title: Early Quantum Hardware and Physical Implementations
+
+Building a physical quantum computer requires maintaining qubits in a coherent quantum state long enough to perform computations — a challenge known as decoherence. Decoherence occurs when a qubit interacts with its environment, causing it to lose its quantum properties and collapse to a classical state. Overcoming decoherence is the central engineering challenge of quantum computing hardware.
+
+Several physical implementations of qubits have been explored. Superconducting qubits, currently used by IBM and Google, are tiny electrical circuits cooled to near absolute zero (around 15 millikelvin), colder than outer space. At these temperatures, the circuits exhibit quantum behavior. Ion trap qubits, used by IonQ and Honeywell, trap individual ions using electromagnetic fields and manipulate them with lasers. Ion traps offer longer coherence times but are difficult to scale.
+
+In 1998, Isaac Chuang and Neil Gershenfeld at MIT demonstrated the first working 2-qubit quantum computer using nuclear magnetic resonance (NMR). NMR quantum computers use the spin states of atomic nuclei as qubits and manipulate them with radio frequency pulses. While NMR computers were limited in scalability, they provided the first experimental proof that quantum algorithms could run on physical hardware.
+
+Photonic qubits use individual photons as qubits and are manipulated using optical components. They have the advantage of operating at room temperature but face challenges in creating photon-photon interactions. Topological qubits, pursued by Microsoft, aim to encode quantum information in more stable mathematical structures called anyons, but have not yet been definitively realized in hardware.
+
+Quantum error correction is a crucial field that designs codes to detect and fix qubit errors without measuring (and thus collapsing) the quantum state. The surface code is currently the most promising error correction approach, requiring roughly 1,000 physical qubits per logical qubit.
+```

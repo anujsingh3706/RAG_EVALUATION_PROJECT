@@ -1,0 +1,13 @@
+```
+Title: Recent Milestones in Quantum Computing (2020-2024)
+
+The years 2020-2024 have seen rapid progress in qubit counts, error rates, and practical quantum applications. IBM unveiled its 127-qubit Eagle processor in 2021, followed by the 433-qubit Osprey in 2022, and the 1,121-qubit Condor processor in December 2023. IBM's quantum roadmap targets 100,000 qubit systems by 2033 through modular architectures that link multiple smaller quantum chips.
+
+Google DeepMind and Google Quantum AI published a landmark paper in Nature in December 2023 announcing significant progress in quantum error correction using their 70-qubit Sycamore successor. The experiment demonstrated that increasing the size of their surface code reduced the logical error rate, a crucial milestone called being "below threshold." This was the first experimental evidence that the surface code approach to error correction can actually work at scale, a major step toward fault-tolerant quantum computing.
+
+Microsoft announced in early 2023 that it had created the most reliable topological qubits demonstrated to date, though the claim remained contested in the research community. Microsoft's approach uses Majorana fermions to encode topological qubits that are inherently more stable than superconducting alternatives.
+
+In the commercial domain, Quantinuum (the merger of Honeywell Quantum Solutions and Cambridge Quantum) announced its H-series trapped-ion quantum computers with record-setting two-qubit gate fidelities exceeding 99.9%. IonQ announced plans for quantum computers with algorithmic qubit counts reaching 64 by 2025.
+
+Quantum computing applications being actively explored include drug discovery and molecular simulation (simulating drug-protein interactions), financial portfolio optimization, climate modeling, logistics optimization, and quantum machine learning. The field of variational quantum algorithms, particularly the Variational Quantum Eigensolver (VQE) and Quantum Approximate Optimization Algorithm (QAOA), represents the most practical use of NISQ devices today.
+```

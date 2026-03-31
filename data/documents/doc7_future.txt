@@ -1,0 +1,12 @@
+```
+Title: The Road to Fault-Tolerant Quantum Computing
+
+Fault-tolerant quantum computing refers to a quantum computer capable of performing arbitrarily long computations reliably, using quantum error correction to actively detect and fix errors in real time. Most experts believe fault-tolerant quantum computers will require millions of physical qubits to encode a useful number of logical qubits. Current state-of-the-art machines have thousands of physical qubits at best.
+
+The concept of a "cryptographically relevant quantum computer" (CRQC) — one powerful enough to break RSA-2048 encryption — is estimated to require approximately 4,000 logical qubits and millions of physical qubits. Most experts place this milestone at least 10-15 years away, though estimates vary widely. A 2022 report by the US Government Accountability Office stated that a cryptographically relevant quantum computer could emerge by 2030 in an optimistic scenario.
+
+Quantum advantage beyond classical simulation for practical problems remains unproven in the NISQ era. Demonstrating that a quantum computer can solve a real-world problem faster than the best classical algorithm remains an open challenge. Quantum simulation of chemistry and materials science is the most likely near-term domain where quantum advantage may be achieved.
+
+The quantum workforce gap is a pressing challenge. A 2023 McKinsey report estimated that the quantum industry would need 845,000 workers globally by 2030, but current training pipelines fall far short. Universities and governments worldwide are investing in quantum education initiatives to address this gap.
+
+Key research frontiers include better qubit coherence times, faster gate speeds, improved error correction codes, development of the quantum internet (long-distance entanglement distribution), and quantum memory technologies. Companies like PsiQuantum are pursuing photonic approaches to build million-qubit quantum computers using semiconductor fabrication techniques adapted from classical chip manufacturing.

@@ -1,0 +1,11 @@
+```
+Title: Quantum Cryptography and Post-Quantum Security
+
+Quantum computing poses a profound threat to classical cryptographic systems. RSA encryption, which secures most internet communications, derives its security from the computational difficulty of factoring large numbers. Shor's Algorithm, running on a sufficiently large fault-tolerant quantum computer, could break RSA encryption in polynomial time. Similarly, elliptic curve cryptography (ECC), used in blockchain and secure messaging, is vulnerable to quantum attacks via variants of Shor's algorithm.
+
+The National Institute of Standards and Technology (NIST) began a post-quantum cryptography standardization process in 2016 to develop cryptographic algorithms that are secure against both classical and quantum computers. In July 2022, NIST announced four candidate algorithms for standardization: CRYSTALS-Kyber for key encapsulation, and CRYSTALS-Dilithium, FALCON, and SPHINCS+ for digital signatures. These algorithms are based on mathematical problems such as lattice problems and hash functions that are believed to be hard for both classical and quantum computers.
+
+Quantum Key Distribution (QKD) is a separate approach that uses the principles of quantum mechanics itself to guarantee secure communication. The BB84 protocol, developed by Charles Bennett and Gilles Brassard in 1984, was the first QKD protocol. It uses polarized photons to transmit encryption keys, with the quantum property that any eavesdropper will unavoidably disturb the quantum states, making interception detectable. China launched the world's first quantum satellite, Micius, in 2016 to test long-distance QKD over satellite links.
+
+Harvest Now, Decrypt Later is an emerging threat strategy where adversaries collect encrypted data today, store it, and decrypt it once quantum computers become powerful enough. This makes the transition to post-quantum cryptography urgent even before large-scale quantum computers exist. Governments including the US, EU, and China have committed billions to both quantum computing development and post-quantum security research.
+```

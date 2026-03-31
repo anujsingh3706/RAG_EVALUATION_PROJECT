@@ -1,0 +1,11 @@
+```
+Title: Origins of Quantum Computing (1980-1985)
+
+The field of quantum computing emerged in the early 1980s from theoretical physics and computer science. Richard Feynman, the Nobel Prize-winning physicist, is widely credited as one of the founding fathers of quantum computing. In 1981, at a conference at MIT, Feynman proposed that a quantum mechanical computer could simulate physical systems that classical computers cannot efficiently model. His landmark talk, "Simulating Physics with Computers," laid the philosophical groundwork for the entire discipline.
+
+Around the same time, Paul Benioff at Argonne National Laboratory independently formalized the idea of a quantum mechanical model of a Turing machine in 1980. Benioff showed that a computer could in principle operate under quantum mechanical laws, proving that quantum mechanics did not fundamentally prohibit computation.
+
+David Deutsch at the University of Oxford took these ideas further in 1985 by publishing a paper describing the first universal quantum computer — a theoretical device capable of simulating any physical system. Deutsch introduced the concept of quantum parallelism, the idea that a quantum computer can process many inputs simultaneously due to the superposition of quantum states. This paper is considered the foundational document of quantum computing theory.
+
+The key quantum mechanical principles that underpin quantum computing are superposition, entanglement, and interference. Superposition allows a quantum bit (qubit) to exist in both the 0 and 1 states simultaneously, unlike classical bits. Entanglement allows two qubits to be correlated such that the state of one instantly influences the other regardless of distance. Interference is used to amplify correct answers and suppress incorrect ones during computation.
+```

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "question": "Who proposed the idea of using a quantum mechanical computer to simulate physical systems, and in what year?",
+    "expected_answer": "Richard Feynman proposed the idea in 1981 at a conference at MIT, in his talk titled 'Simulating Physics with Computers'.",
+    "source_doc": "doc1_origins"
+  },
+  {
+    "id": 2,
+    "question": "What are the three key quantum mechanical principles that underpin quantum computing?",
+    "expected_answer": "The three key principles are superposition, entanglement, and interference.",
+    "source_doc": "doc1_origins"
+  },
+  {
+    "id": 3,
+    "question": "What is Shor's Algorithm and why is it significant for cryptography?",
+    "expected_answer": "Shor's Algorithm can factor large integers in polynomial time, posing a direct threat to RSA encryption and most modern cryptographic systems that rely on the difficulty of factoring large numbers.",
+    "source_doc": "doc2_algorithms"
+  },
+  {
+    "id": 4,
+    "question": "What speedup does Grover's Algorithm provide over classical search?",
+    "expected_answer": "Grover's Algorithm provides a quadratic speedup, reducing search time from O(N) classically to O(√N) on a quantum machine.",
+    "source_doc": "doc2_algorithms"
+  },
+  {
+    "id": 5,
+    "question": "What is decoherence and why is it a central challenge in quantum computing hardware?",
+    "expected_answer": "Decoherence occurs when a qubit interacts with its environment, causing it to lose its quantum properties and collapse to a classical state. It is the central engineering challenge because qubits must remain coherent long enough to perform computations.",
+    "source_doc": "doc3_hardware"
+  },
+  {
+    "id": 6,
+    "question": "Who demonstrated the first working 2-qubit quantum computer, and what technology did they use?",
+    "expected_answer": "Isaac Chuang and Neil Gershenfeld at MIT demonstrated the first working 2-qubit quantum computer in 1998 using nuclear magnetic resonance (NMR).",
+    "source_doc": "doc3_hardware"
+  },
+  {
+    "id": 7,
+    "question": "What milestone did Google's Sycamore processor achieve in 2019?",
+    "expected_answer": "Google's 53-qubit Sycamore processor achieved quantum supremacy, completing a specific sampling task in 200 seconds that would take classical supercomputers approximately 10,000 years.",
+    "source_doc": "doc4_ibm_google"
+  },
+  {
+    "id": 8,
+    "question": "What is the NISQ era and who coined the term?",
+    "expected_answer": "NISQ stands for Noisy Intermediate-Scale Quantum computing. The term was coined by physicist John Preskill in 2018 to describe quantum computers with 50-1000 qubits that are too noisy for full error correction.",
+    "source_doc": "doc4_ibm_google"
+  },
+  {
+    "id": 9,
+    "question": "What is the BB84 protocol and who developed it?",
+    "expected_answer": "BB84 is the first Quantum Key Distribution protocol, developed by Charles Bennett and Gilles Brassard in 1984. It uses polarized photons to transmit encryption keys, with any eavesdropping unavoidably disturbing the quantum states.",
+    "source_doc": "doc5_cryptography"
+  },
+  {
+    "id": 10,
+    "question": "What is 'Harvest Now, Decrypt Later' and why is it a threat?",
+    "expected_answer": "Harvest Now, Decrypt Later is a strategy where adversaries collect encrypted data today and store it, planning to decrypt it once powerful quantum computers become available in the future.",
+    "source_doc": "doc5_cryptography"
+  },
+  {
+    "id": 11,
+    "question": "What were the four post-quantum cryptography algorithms selected by NIST in 2022?",
+    "expected_answer": "NIST selected CRYSTALS-Kyber for key encapsulation, and CRYSTALS-Dilithium, FALCON, and SPHINCS+ for digital signatures.",
+    "source_doc": "doc5_cryptography"
+  },
+  {
+    "id": 12,
+    "question": "What significant error correction milestone did Google announce in December 2023?",
+    "expected_answer": "Google demonstrated that increasing the size of their surface code reduced the logical error rate, showing the system was 'below threshold' — the first experimental evidence that surface code error correction can work at scale.",
+    "source_doc": "doc6_recent_milestones"
+  },
+  {
+    "id": 13,
+    "question": "How many physical qubits does IBM's Condor processor have, and what is IBM's 2033 target?",
+    "expected_answer": "IBM's Condor processor has 1,121 qubits, released in December 2023. IBM's roadmap targets 100,000 qubit systems by 2033.",
+    "source_doc": "doc6_recent_milestones"
+  },
+  {
+    "id": 14,
+    "question": "What is a cryptographically relevant quantum computer (CRQC) and how many qubits does it require?",
+    "expected_answer": "A CRQC is a quantum computer powerful enough to break RSA-2048 encryption. It is estimated to require approximately 4,000 logical qubits and millions of physical qubits.",
+    "source_doc": "doc7_future"
+  },
+  {
+    "id": 15,
+    "question": "According to a 2023 McKinsey report, how many quantum workers will be needed globally by 2030?",
+    "expected_answer": "The McKinsey report estimated the quantum industry would need 845,000 workers globally by 2030.",
+    "source_doc": "doc7_future"
+  }
+]
